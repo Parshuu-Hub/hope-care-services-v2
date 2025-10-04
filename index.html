@@ -226,9 +226,20 @@
 
   <!-- Footer -->
   <footer>
+    <div class="request-form" id="contact-form">
+      <h3>Request a Callback</h3>
+      <form action="https://formsubmit.co/serviceshopecare@gmail.com" method="post" enctype="multipart/form-data">
+        <input type="text" name="name" placeholder="Name" required />
+        <input type="tel" name="mobile" placeholder="Mobile Number" pattern="[0-9]{10}" required />
+        <input type="email" name="email" placeholder="Email" required />
+        <input type="text" name="message" placeholder="Address" required />
+        <input type="file" name="attachment" accept=".pdf,.doc,.docx,image/png,image/jpeg,image/jpg" required />
+        <button type="submit">Submit Request</button>
+      </form>
+    </div>
     <div class="footer-content">
       <div class="footer-logo">
-        <img src="images/nobglogo.png" alt="Logo" />
+        <a href="index.html"><img src="images/nobglogo.png" alt="Logo" /></a>
       </div>
       <div class="footer-links">
         <h4>Quick Links</h4>
@@ -246,17 +257,7 @@
           Sevices- Manpower Outsourcing Services,<br> Financial & Social Audit Services</p>
       </div>
     </div>
-    <div class="request-form" id="contact-form">
-      <h3>Request a Callback</h3>
-      <form action="https://formsubmit.co/serviceshopecare@gmail.com" method="post" enctype="multipart/form-data">
-        <input type="text" name="name" placeholder="Name" required />
-        <input type="tel" name="mobile" placeholder="Mobile Number" pattern="[0-9]{10}" required />
-        <input type="email" name="email" placeholder="Email" required />
-        <input type="text" name="message" placeholder="Address" required />
-        <input type="file" name="attachment" accept=".pdf,.doc,.docx,image/png,image/jpeg,image/jpg" required />
-        <button type="submit">Submit Request</button>
-      </form>
-    </div>
+    
     <div class="footer-bottom">
       <p>&copy; 2025 Hope Care Services. All Rights Reserved.</p>
     </div>
